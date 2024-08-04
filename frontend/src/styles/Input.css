@@ -1,0 +1,21 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width:15vw;
+    align-items: flex-start;
+}
+
+.input-box{
+    padding: 5px;
+    margin: 1rem;
+    border-radius: 5px;
+   
+    
+}
+
+.input-label{
+    margin-left:1rem;
+    font-weight: bold;
+    user-select: none; 
+}
+

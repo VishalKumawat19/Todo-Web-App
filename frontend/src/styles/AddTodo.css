@@ -1,0 +1,83 @@
+.form-container{
+
+    max-width:100vw;
+    height: 80vh;
+    padding:2rem;
+    position: absolute;
+    top:9vh;
+    left: 0;
+  }
+  
+  .form{
+    position: relative;
+    width: 40%;
+    height: 60%;
+    left: -6vw;
+    
+ 
+  }
+
+  .form .title-container {
+    position: absolute;
+    top: 15vh;
+  }
+
+  .form .description-container {
+    position: absolute;
+    top: 23vh;
+  }
+
+  .form .add-button-container {
+    position: absolute;
+    top: 27vh;
+  }
+
+  .label{
+    font-weight: bold;
+  } 
+    
+    .add-button-container{
+      margin-left: 11vw;
+      position: absolute;
+      top:32vh;
+  
+    }
+  
+    .todo-submit{
+      border: none;
+      color: white;
+      background-color: #29bf12;
+      padding: 0.5rem 1rem;
+      font-weight: 500;
+      margin-top:4vh !important;
+      opacity: 0.8;
+      border-radius: 5px !important;
+    }
+  
+    .todo-submit:hover{
+      opacity: 1;
+      cursor: pointer;
+    }
+  
+    .todo-submit:active{
+      opacity: 1;
+      cursor: pointer;
+    }
+
+    .input {
+        position: relative;
+        padding: 0.5rem 1.5rem;
+        padding-left: 0.2rem;
+        border: none;
+        display: inline-block;
+        border-radius: 5px;
+        outline: none;
+    }
+
+     #description{
+        left: 4vw;
+    }
+
+     #title{
+        left: 7.2vw;
+    }

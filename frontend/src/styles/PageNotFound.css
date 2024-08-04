@@ -1,0 +1,31 @@
+.pnf-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+.pnf-container .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.pnf-heading {
+    font-size: 5rem;
+    color: #333;
+}
+.pnf-heading p {
+    font-size: 1.25rem;
+    color: #666;
+}
+.pnf-a{
+    color: #007BFF;
+    text-decoration: none;
+}
+.pnf-a:hover {
+    text-decoration: underline;
+}

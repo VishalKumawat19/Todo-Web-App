@@ -1,0 +1,16 @@
+.btn{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: #70e000;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-container{
+    width: 100%;
+    text-align: center;
+    user-select: none;
+}

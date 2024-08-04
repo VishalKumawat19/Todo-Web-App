@@ -1,0 +1,22 @@
+form{
+    width: 21vw;
+    height: auto;
+    margin: 18vh 39vw 10vh 39vw;
+    background-color: #f5f3f4;
+    padding: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+
+.login-container{
+    display: flex;
+    flex-direction:column;
+}
+
+.signup-option{
+    margin-top: 1vh;
+    text-align: center;
+}

@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.no-select {
+    user-select: none; /* Prevent text selection */
+  }
+
+.delete-btn , .edit-btn{
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    padding-left: 0.5vw;
+}
+
+.alert-container{
+    margin-block:1vh;
+    height: 4vh;
+    width:100%;
+    text-align: center;
+    color: white;
+}
+.no-cursor{
+    cursor: none !important;
+}
+.success-alert {
+    background-color:#22bb33;
+}
+
+.error-alert {
+    background-color:#bb2124;
+}
+
+p{
+    padding-block:0.5vh;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+/* media queries */
+
+@media (max-width: 600px) {
+    /* input field */
+   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 768px) {
+    
+}
+
+/* Medium devices (landscape tablets and small desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
+
